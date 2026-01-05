@@ -1,0 +1,3 @@
+These scripts were used to generate and filter barcode-element associations for the PPIF promoter lentiMPRA experiment published in Montgomery, Martyn et al (DOI: 10.1016/j.cell.2025.03.034).
+
+Specifically, custom sequencing was performed on the oligo-barcode libraries amplified from the library pool by Plasmidsaurus using Oxford Nanopore Technology. We associated oligos with unique barcodes by identifying full, error-free matches to the entire oligo sequence within reads, requiring that at least 75% of all reads associated with a barcode mapped to a single sequence, and that each sequence had a minimum of 5 reads associated with that barcode.
